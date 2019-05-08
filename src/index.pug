@@ -15,7 +15,7 @@ html(lang="en")
             .container
               //- a.navbar-brand(href='#') Navbar
               .logo.docker
-                a.navbar-brand(href='#')
+                a.navbar-brand(href='/')
                   img(src='./img/bootstrap-solid.svg' width='150' height='45' alt='')
               button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
                 span.navbar-toggler-icon
@@ -23,22 +23,25 @@ html(lang="en")
                 ul.navbar-nav.mr-auto
                   li.nav-item.active
                     a.nav-link(href='#')
-                      | Home 
+                      | Why Docker? 
                       span.sr-only (current)
                   li.nav-item
-                    a.nav-link(href='#') Link
+                    a.nav-link(href='#') Products
                   li.nav-item.dropdown
                     a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
-                      | Dropdown
+                      | Solutions
                     .dropdown-menu(aria-labelledby='navbarDropdown')
                       a.dropdown-item(href='#') Action
                       a.dropdown-item(href='#') Another action
                       .dropdown-divider
                       a.dropdown-item(href='#') Something else here
                   li.nav-item
-                    a.nav-link.disabled(href='#' tabindex='-1' aria-disabled='true') Disabled
+                    a.nav-link(href='#' tabindex='-1') Customers
+                  li.nav-item
+                    a.nav-link(href='#' tabindex='-1') Resources
                 form.form-inline.my-2.my-lg-0
-                  input.form-control.mr-sm-2(type='search' placeholder='Search' aria-label='Search')
+                  //- input.form-control.mr-sm-2(type='search' placeholder='Search' aria-label='Search')
+                  <a class="nav-item nav-link" href="#">Pricing</a>
                   button.btn.btn-outline-light.my-2.my-sm-0(type='submit') Search
       
       .container

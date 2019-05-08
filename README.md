@@ -1,11 +1,11 @@
-# Boostly
+# Html Docker Clone
 
-Initial package for the development of html sites with [Bootstrap](https://getbootstrap.com/) and [Webpack](https://webpack.js.org/)
+Html site with [Bootstrap](https://getbootstrap.com/) and [Webpack](https://webpack.js.org/)
 
 ## Clone repository
 
 ```
-λ git clone https://github.com/mayanfy/boostly.git nameproject
+λ git clone https://github.com/chandzul/html-docker-clone.git nameproject
 ```
 
 ## Install components
