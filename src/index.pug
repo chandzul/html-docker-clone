@@ -1,0 +1,54 @@
+doctype html
+html(lang="en")
+  
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    title
+      | Home | Docker
+
+  body
+    .page-wrap
+      .site-header
+        .top-navigation
+          nav.navbar.navbar-expand-lg.navbar-dark 
+            .container
+              //- a.navbar-brand(href='#') Navbar
+              .logo.docker
+                a.navbar-brand(href='#')
+                  img(src='./img/bootstrap-solid.svg' width='150' height='45' alt='')
+              button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                  li.nav-item.active
+                    a.nav-link(href='#')
+                      | Home 
+                      span.sr-only (current)
+                  li.nav-item
+                    a.nav-link(href='#') Link
+                  li.nav-item.dropdown
+                    a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                      | Dropdown
+                    .dropdown-menu(aria-labelledby='navbarDropdown')
+                      a.dropdown-item(href='#') Action
+                      a.dropdown-item(href='#') Another action
+                      .dropdown-divider
+                      a.dropdown-item(href='#') Something else here
+                  li.nav-item
+                    a.nav-link.disabled(href='#' tabindex='-1' aria-disabled='true') Disabled
+                form.form-inline.my-2.my-lg-0
+                  input.form-control.mr-sm-2(type='search' placeholder='Search' aria-label='Search')
+                  button.btn.btn-outline-light.my-2.my-sm-0(type='submit') Search
+      
+      .container
+        .row
+          .col-sm-12
+            h1.h1-responsive.font-weight-bold.text-white Enterprise Container Platform for High-Velocity Innovation
+            p.text-white Securely build, share and run any application, anywhere  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel possimus magni quidem officiis porro blanditiis tempora rerum illum nam quaerat, architecto laboriosam mollitia molestiae! Est atque asperiores quia unde necessitatibus.
+            br
+            a.btn.btn-primary.btn-lg(href='./ui/index.html' role='button') 
+              i.mdi.mdi-brush.mr-2
+              | Learn More
+          .col-sm-12
+            img(src='./img/Platform.svg' alt="platform")
