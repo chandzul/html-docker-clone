@@ -8,17 +8,82 @@
 
 
 .page-wrap {
-	background-image: url('../img/homepage-banner-bg.svg');
+  background-image: url('../img/homepage-banner-bg.svg');
     // padding-top: 180px;
     min-height: 150px;
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
- .site-header {
-    padding: 30px 0 23px;
- }
 
+.site-header {
+  padding: 30px 0 23px;
+}
+
+div {
+  // border: 1px solid red;
+}
+
+
+p.sub-h2 {
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 1.25;
+    color: #697A89;
+    font-size: $h3-font-size * .9;
+}
+
+.customer-item a{
+    color: #007bff;
+    // text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.customer-item a .card {
+  width: 300px;
+  min-height: 200px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  padding: 1rem;
+  background-color: white;
+}
+
+.customer-item .card .card-front {
+  // para la imagen
+}
+
+.customer-item .card .card-back {
+  // para el texto
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 1;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+ .customer-item .card .card-back .text-wrapping {
+    max-width: 220px !important;
+}
 
  // .jumbotron-detail-page {
  //    background-image: url('../img/background-detail.jpg');
