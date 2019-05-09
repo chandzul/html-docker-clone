@@ -39,9 +39,10 @@ html(lang="en")
                     a.nav-link(href='#' tabindex='-1') Customers
                   li.nav-item
                     a.nav-link(href='#' tabindex='-1') Resources
+                .navbar-nav
+                  <a class="nav-item nav-link" href="#">Sig In</a>
                 form.form-inline.my-2.my-lg-0
                   //- input.form-control.mr-sm-2(type='search' placeholder='Search' aria-label='Search')
-                  <a class="nav-item nav-link" href="#">Pricing</a>
                   button.btn.btn-outline-light.my-2.my-sm-0(type='submit') Search
       
       .container
@@ -116,5 +117,50 @@ html(lang="en")
               i.mdi.mdi-brush.mr-2
               | Why Docker?
 
+
+      section.image-text-section.image-left.mt-5.mb-5
+        .container.m-auto
+          .row
+            .col-md-5.image-col
+              img.img-fluid(src='./img/dev_sm.jpg' alt='...')
+            .col-md-5.text-col.offset-md-2
+              h2 Introducing Docker Enterprise 3.0
+              p.subtitle
+                | Seamlessly build and share any application — from legacy to what comes next — and securely run them anywhere.
+              p
+                | Docker Enterprise is the easiest and fastest way to use containers and Kubernetes at scale and delivers the fastest time to production for modern applications, securely running them from hybrid cloud to the edge.
+              p
+                | Over 750 enterprise organizations use Docker Enterprise for everything from modernizing traditional applications to microservices and data science.
+              p
+                a.btn.btn-primary.btn-lg(href='./ui/index.html' role='button') 
+                  i.mdi.mdi-brush.mr-2
+                  | Explore Docker Products
+
+      section.image-text-section.image-left.mt-5.mb-5
+        .container.m-auto
+          .row
+            
+            .col-md-5.text-col
+              h2 Introducing Docker Enterprise 3.0
+              p.subtitle
+                | Seamlessly build and share any application — from legacy to what comes next — and securely run them anywhere.
+              p
+                | Docker Enterprise is the easiest and fastest way to use containers and Kubernetes at scale and delivers the fastest time to production for modern applications, securely running them from hybrid cloud to the edge.
+              p
+                | Over 750 enterprise organizations use Docker Enterprise for everything from modernizing traditional applications to microservices and data science.
+              p
+                a.btn.btn-primary.btn-lg(href='./ui/index.html' role='button') 
+                  i.mdi.mdi-brush.mr-2
+                  | Read Report
+            .col-md-5.image-col.offset-md-2
+              img.img-fluid(src='./img/stackoverflow-survey-logo.png' alt='...')
+      
+      section.cta-section.cubes-background
+        .cubes-left
+        .cubes-right
+        .container.text-center
+          .text-wrap
+            h2.xl Get started with Docker today
+            a.btn.btn-primary(href='/get-docker') Get started
 
 

@@ -85,11 +85,39 @@ p.sub-h2 {
     max-width: 220px !important;
 }
 
- // .jumbotron-detail-page {
- //    background-image: url('../img/background-detail.jpg');
- //    background-repeat: no-repeat;
- //    background-position: 100% 0;
- //    background-size: cover;
- //    background-color: white;
- // }
- 
+
+
+.cta-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cubes-background {
+    position: relative;
+}
+
+.cubes-background .cubes-left, .cubes-background .cubes-right {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cubes-background .cubes-left {
+    background-position: center left;
+    background-image: url('../img/cta-cubes-left-3.svg');
+    left: 0;
+}
+
+.cubes-background .cubes-right {
+    background-position: center right;
+    background-image: url('../img/cta-cubes-right-3.svg');
+    right: 0;
+}
+
+.cta-section .text-wrap {
+    max-width: 535px;
+    margin: 0 auto;
+}
