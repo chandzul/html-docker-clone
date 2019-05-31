@@ -183,12 +183,23 @@ html(lang="en")
                 img.image(src='./img/paypal-color.png', alt='paypal-color.png')
 
       footer.footer
-        .container
-          | Container links
-        .container-fluid
+        .container.mb-5
+          .row
+            .col-lg-2
+              img(src='./img/bootstrap-solid.svg' width='150' height='45' alt='')
+            .col-lg-10
+              | menus
+        .container-fluid.mt-5.text-right
           a.btn.btn-primary.btn-lg(href='#' role='button') 
             | Read Report
-        .container
-          | Container text
+        .container.mt-5.mb-5.pt-5.pb-5
+          .row
+            .col-md-8
+              | © 2019 Docker Inc. All rights reserved | 
+              a(href="") Terms of Service | 
+              a(href="") Privacy |
+              a(href="")  Legal
+            .col-md-4.text-right
+              | Facebook | Instagram | Twitter
 
 

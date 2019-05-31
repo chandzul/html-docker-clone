@@ -8,12 +8,13 @@
 
 
 .page-wrap {
-  background-image: url('../img/homepage-banner-bg.svg');
+    background-image: url('../img/homepage-banner-bg.svg');
     // padding-top: 180px;
     min-height: 150px;
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .site-header {
@@ -163,5 +164,6 @@ p.sub-h2 {
 
 footer.footer {
   background-color: #022144;
-    padding: 80px 0 40px;
+  padding: 80px 0 40px;
+  color: white;
 }
